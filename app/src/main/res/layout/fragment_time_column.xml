@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/time_column_timestamp"
+        android:text="시간"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background = "@drawable/edge"/>
+
+    <View
+        android:id="@+id/time_column_mon"
+        android:background = "@drawable/edge" />
+    <View
+        android:id="@+id/time_column_tue"
+        android:background = "@drawable/edge" />
+    <View
+        android:id="@+id/time_column_wed"
+        android:background = "@drawable/edge" />
+    <View
+        android:id="@+id/time_column_thu"
+        android:background = "@drawable/edge" />
+    <View
+        android:id="@+id/time_column_fri"
+        android:background = "@drawable/edge" />
+</TableRow>

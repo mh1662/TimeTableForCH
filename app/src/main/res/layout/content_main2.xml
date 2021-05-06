@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        >
+
+        <TableRow>
+            <TextView
+                android:text=""
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background = "@drawable/edge" />
+
+            <TextView
+                android:text="월"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background = "@drawable/edge"/>
+
+            <TextView
+                android:text="화"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background = "@drawable/edge"/>
+
+            <TextView
+                android:text="수"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background = "@drawable/edge"/>
+
+            <TextView
+                android:text="목"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background = "@drawable/edge"/>
+
+            <TextView
+                android:text="금"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background = "@drawable/edge"/>
+        </TableRow>
+
+        <fragment
+            android:id="@+id/time_column_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.mh1662.timetableCH.TimeColumnFragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_time_column" />
+
+        <fragment
+            android:id="@+id/time_column_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.mh1662.timetableCH.TimeColumnFragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_time_column" />
+
+        <fragment
+            android:id="@+id/time_column_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.mh1662.timetableCH.TimeColumnFragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_time_column" />
+
+        <fragment
+            android:id="@+id/time_column_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.mh1662.timetableCH.TimeColumnFragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_time_column" />
+
+        <fragment
+            android:id="@+id/time_column_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.mh1662.timetableCH.TimeColumnFragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_time_column" />
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.mh1662.timetableCH.TimeCellFragment"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_time_cell" /-->
